@@ -1,0 +1,195 @@
+:root{
+    --white:rgb(255, 255, 255);
+    --accent:rgb(255, 193, 6);
+    --titles-color: rgb(21, 102, 192);
+    --black: rgb(0, 0, 0);  
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Righteous', cursive;
+}
+
+*{
+    font-family: var(--main-font);
+    color:var(--black);
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+    font-family: var(--title-font);
+}
+
+h2,h3,.h2,.h3{
+    color:var(--titles-color);
+}
+
+.textWhite{
+    color:var(--white);
+}
+.textAccent{
+    color:var(--accent);
+}
+
+.textBlue{
+    color: var(--titles-color);
+}
+
+
+.headerBG{
+    
+    height: 80vh;
+    background: url('./media/wave2.svg'),
+    url('./media/wave1.svg'), 
+    linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0)), 
+    url('./media/header.jpg');
+    background-position: bottom, 0% 97%, center, center;
+    background-repeat: no-repeat;
+    
+}
+
+.btnHeaderCustom{
+    
+    width: 90px;
+    height: 30px;
+    background-color: var(--accent);
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.cardCustom{
+    min-height: 45vh;
+    width: 35vh;
+    margin-top: 10px;
+}
+
+.card-sea-1{
+    
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.823)), url(./media/1.png);
+    
+}
+.card-sea-2{
+    
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.361), rgba(0, 0, 0, 0.823)), url(./media/2.png);
+    
+}
+.card-sea-3{
+    
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.361), rgb(0, 0, 0)), url(./media/3.png);
+    
+}
+.card-sea-4{
+    
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.361), rgb(0, 0, 0)), url(./media/4.png);
+    
+}
+
+.card-sea-h4{
+    border-bottom: 3px solid var(--accent);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+
+.card-sea-text{
+    
+    font-size: medium;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.icon-card-sea{
+    margin-left: 10px;
+    margin-top: 85px; 
+}
+
+
+.cardIconCustom{
+    display: block;
+    height: 100px;
+    width: 100px;
+    
+    border-radius:20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.roundendPhoto{
+
+    border: 4px solid var(--titles-color);
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.cardPathCustom{
+    border-radius:20px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);    
+}
+
+.border-right{
+    border-right: 3px solid var(--titles-color);  
+}
+
+.dots-right, .dots-left{
+    position: relative;
+}
+
+.dots-right::after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 2px solid var(--titles-color);
+    position: absolute;
+    bottom: 42px;
+    right: -34px;
+    
+}
+
+.dots-left::after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 2px solid var(--titles-color);
+    position: absolute;
+    bottom: 42px;
+    left: -34px;
+    
+}
+
+.buttonTimeline {
+    background-color: var(--titles-color);
+    border-radius: 0;
+    color: white;
+    width: 200px;
+    border: 3px solid var(--titles-color);
+    transition: 0.4s;
+}
+
+.buttonTimeline:hover {
+
+    border: 3px solid var(--titles-color);
+}
+
+
+.img-footer{
+    
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255), rgba(10, 10, 10, 0.39), rgb(7, 7, 7)), url(./media/footer.jpg);
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.h3-footer{
+    
+    color: var(--accent);
+    
+}
